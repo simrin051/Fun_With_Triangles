@@ -1,0 +1,127 @@
+body
+{
+ 
+    background-image: url("/images/bgTriangles.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+}
+
+    input
+    {
+        display: block;
+        width: 12rem;
+        height: 2rem;
+        border-radius: 1rem;
+        text-decoration: none;
+    }
+    
+    .hypotenuse-btn, .back-btn
+    {
+        border-radius: 1rem;
+        width: 8rem;
+        height:2rem;
+        background-color: darkblue;
+        color: white;
+        border:none;
+        margin-top: 2rem;
+    }
+.calculateHypotenuse
+{
+    position: relative;
+	top: 10rem;
+	bottom: 0;
+    left:auto;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 15rem;
+  }
+
+
+.output
+{
+ 
+    width: 15rem;
+    height:2rem;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+/**horizontal line **/
+.line1 
+{
+    width: 99px;
+    height: 47px;
+    border-bottom: 2px solid darkblue;
+    position: absolute;
+}
+
+.side1 
+{
+    width: 99px;
+    height: 47px;
+    position: absolute;
+    left:-11px;
+}
+/**vertical line **/
+.line2
+{
+    border-left: 2px solid darkblue;;
+            height: 95px;
+            position:relative;
+            left: 0%;
+            bottom:2.8rem;
+            
+}
+
+.side2
+{
+    height: 95px;
+    position:relative;
+    left: 40px;
+    bottom:2.8rem; 
+    top: 7rem;
+}
+/**slanted line **/
+.line3
+{
+    width: 135px;
+    height: 62px;
+    border-bottom: 2px solid darkblue;
+    -webkit-transform:
+        translateY(-32px)
+        translateX(5px)
+        rotate(43deg); 
+    position: absolute;
+     top: -20px; 
+}
+.side3
+{
+    width: 135px;
+    height: 62px;
+    position: relative;
+     top:35px; 
+     left: 55px;
+}
+
+.triangle 
+{
+   
+    top: 20rem;
+    margin-left: 20rem;
+    margin-right: auto;
+    position:absolute;
+  
+}

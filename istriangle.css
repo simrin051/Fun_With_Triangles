@@ -1,0 +1,127 @@
+.isTriangle
+{
+    display: block;
+    margin-top: 2rem;
+}
+
+body
+{
+    background-image: url("/images/bgTriangles.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 4rem;
+    top: 16rem;
+    position: relative;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.selectionbox
+{
+    width: 25%;
+    height: 350px;
+    top: 20rem;
+    background-size: 30px 80px;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.row
+{
+    
+    display: inline-block;
+    margin-bottom: 0rem;
+    position: relative;
+    margin-top: 0rem;
+}
+.row a
+{
+    
+margin-left: 0.5rem;
+background-color: #00B7EB;
+padding-top: 5rem;
+text-align: center;
+margin-top: 0rem;
+max-width: 150px;
+font-size: 1.5rem;
+position: relative;
+color: #606060;
+font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.row a:nth-child(2) {
+   float:right;
+   background-color: #0892D0;
+   position: relative;
+   margin-top: 0%;
+   width: 200px;
+   height:100px;
+  }
+
+  .row a:nth-child(1) {
+    
+    background-color:  #0892D0;
+    float:left;
+    position: relative;
+    width: 200px;
+   height:100px;
+}
+
+input
+{
+    display: block;
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.is-triangle-btn,.back-btn
+{
+    border-radius: 1rem;
+    width: 8rem;
+    height:2rem;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    margin-top: 0rem;
+    margin-left: 35rem;
+    margin-right:10px;
+    top: 10rem;
+    position: relative;
+}
+
+.istriangle
+{
+    position: relative;
+	top: 10rem;
+	bottom: 0;
+    left:auto;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 15rem;
+}
+
+.output
+{
+    border-radius: 1rem;
+    width: 10rem;
+    height:2rem;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    margin-top: 1rem;
+    margin-left: 35rem;
+    margin-right:10px;
+    top: 10rem;
+    position: relative;
+    text-align: center;
+    padding-top: 1rem;
+}

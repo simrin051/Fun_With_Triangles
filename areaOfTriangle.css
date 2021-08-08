@@ -1,0 +1,76 @@
+input
+{
+display: block;
+position: relative;
+}
+.area-btn
+{
+    margin-top: 2rem;
+}
+
+body
+{
+    background-image: url("/images/bgTriangles.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    margin: 0;
+}
+label
+{
+    font-size: 1rem;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+input
+{
+    width: 12rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.area-btn, .back-btn
+{
+    border-radius: 1rem;
+    width: 8rem;
+    height:2rem;
+    background-color: darkblue;
+    color: white;
+    border:none;
+}
+
+.areaOfTriangle
+{
+   
+    position: relative;
+	top: 10rem;
+    left:auto;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 15rem;
+	bottom: 0;
+	margin-left: auto;
+	margin-right: 0;
+ 
+	margin: auto;
+
+}
+
+.output
+{
+ 
+    width: 15rem;
+    height:2rem;
+    background-color: darkblue;
+    color: white;
+    border:none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
