@@ -1,13 +1,13 @@
 body
 {
  
-    background-image: url("/images/bgTriangles.jpg");
+   background-image: url("/images/bgTriangles.jpg"); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
     min-height: 100vh;
     margin: 0;
-    position: relative;
+
 }
 
     input
@@ -19,7 +19,7 @@ body
         text-decoration: none;
     }
     
-    .hypotenuse-btn, .back-btn
+    .hypotenuse-btn 
     {
         border-radius: 1rem;
         width: 8rem;
@@ -29,10 +29,24 @@ body
         border:none;
         margin-top: 2rem;
     }
+    .back-btn
+    {
+        border-radius: 1rem;
+        width: 8rem;
+        height:2rem;
+        background-color: darkblue;
+        color: white;
+        border:none;
+        margin-top: 7rem;
+        position: absolute;
+        justify-content: center;
+        margin-left: 35rem;
+        margin-right: 10rem;
+    }
 .calculateHypotenuse
 {
     position: relative;
-	top: 10rem;
+	top: 12rem;
 	bottom: 0;
     left:auto;
 	margin-left: auto;
@@ -119,8 +133,8 @@ body
 .triangle 
 {
    
-    top: 20rem;
-    margin-left: 20rem;
+    top: 13rem;
+    margin-left: 25rem;
     margin-right: auto;
     position:absolute;
   
@@ -129,5 +143,42 @@ body
 @media only screen and (max-width: 600px) {
     body {
         background-image: url("/images/bgTrianglesMob.jpg");
+        
     }
+ 
+    
+   .back-btn
+    {
+        border-radius: 1rem;
+        width: 8rem;
+        height:2rem;
+        background-color: darkblue;
+        color: white;
+        border:none;
+        margin-top: 6rem;
+        top: 0rem;
+        margin-left: 4rem;
+    }
+    
+.calculateHypotenuse
+{
+    position: relative;
+	top: 13rem;
+	bottom: 0;
+    left:auto;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+    width: 15rem;
+  }
+
+  .triangle 
+  {
+     
+      margin-top: 0rem;
+      margin-left: 5rem;
+      margin-right: auto;
+      position: relative;
+    
+  }
   }

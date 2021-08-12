@@ -1,148 +1,129 @@
-body
-{
-    background-image: url("/images/bgTriangles.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
-    min-height: 100vh;
-    margin: 0;
-
+body {
+	background-image: url("/images/bgTriangles.jpg"); 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	min-height: 100vh;
+	margin: 0;
 }
-.question-container
-{
-    padding: 1rem;
-    background-color: #63C5DA;
-    margin-bottom: 2rem;
-    width: 50%;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
-    margin-left: auto;
-    margin-right: auto;
+.back-btn {
+	border-radius: 1rem;
+	width: 8rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
+	left: 20rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	position: relative;
 }
-.question-container label 
-{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-   
+.question-container {
+	padding: 1rem;
+	background-color: #63c5da;
+	margin-bottom: 2rem;
+	width: 50%;
+	height: 15%;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1rem;
+	margin-left: auto;
+	align-items: center;
+	margin-right: auto;
+} 
+
+.submit {
+	border-radius: 1rem;
+	width: 8rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
+	position: relative;
+	margin-left: 28rem;
+	margin-right: auto;
 }
-.submit
-{
-    border-radius: 1rem;
-    width: 8rem;
-    height:2rem;
-    background-color: darkblue;
-    color: white;
-    border:none;
-    position: relative;
-    margin-left: 28rem;
-    margin-right: auto;
-  
-}
-
-.scoreboard
-{
- 
-    width: 16rem;
-    height:2rem;
-    background-color: darkblue;
-    color: white;
-    border:none;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    border-radius: 1rem;
-}
-
-.quiz-form
-{
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    width:80%;
-    margin-top: 1rem;
-
-}
-
-.back-btn
-    {
-        border-radius: 1rem;
-        width: 8rem;
-        height:2rem;
-        background-color: darkblue;
-        color: white;
-        border:none;
-        left: 25rem;
-        margin-right: auto;
-        margin-top: 2rem;
-        position: relative;
-    }
-
-
-input
-{
-    display: block;
-    width: 12rem;
-    height: 2rem;
-    border-radius: 1rem;
-    text-decoration: none;
-}
-
-.is-triangle-btn,.back-btn
-{
-    border-radius: 1rem;
-    width: 8rem;
-    height:2rem;
-    background-color: darkblue;
-    color: white;
-    border:none;
-    margin-top: 0rem;
-    margin-left: 35rem;
-    margin-right:10px;
-    top: 10rem;
-    position: relative;
-}
-
-.istriangle
-{
-    position: relative;
-	top: 10rem;
-	bottom: 0;
-    left:auto;
+.scoreboard {
+	width: 16rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
 	margin-left: auto;
 	margin-right: auto;
-    display: block;
-    width: 15rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	border-radius: 1rem;
 }
 
-.output
-{
-    border-radius: 1rem;
-    width: 10rem;
-    height:2rem;
-    background-color: darkblue;
-    color: white;
-    border:none;
-    margin-top: 1rem;
-    margin-left: 35rem;
-    margin-right:10px;
-    top: 10rem;
-    position: relative;
-    text-align: center;
-    padding-top: 1rem;
+ 
+@media only screen and (max-width: 700px) {
+    body {
+       background-image: url("/images/bgTrianglesMob.jpg");
+	   background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 220%;
+		overflow: hidden;
+
+    }
+	.questionsContainer
+	{
+		width: 100%;
+		margin-bottom: 0rem;
+		position: absolute;
+	}
+
+	.question-container {
+		padding: 1rem;
+		background-color: #63c5da;
+		margin-bottom: 2rem;
+		width: 85%;
+		height: 15%;
+		font-family: 'Courier New', Courier, monospace;
+		font-size: 1rem;
+		margin-left: auto;
+		align-items: center;
+		margin-right: auto;
+	} 
+	
+.back-btn {
+	border-radius: 1rem;
+	width: 8rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	position: relative;
+	left:0rem;
+	margin-left: 1rem;
+}	
+.submit {
+	border-radius: 1rem;
+	width: 8rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
+	position: relative;
+	margin-left: 28rem;
+	margin-right: auto;
 }
-    @media only screen and (max-width: 800px) {
-        body {
-            background-image: url("/images/bgTrianglesMob.jpg");
-            background-repeat: no-repeat;
-        background-position: center;
-    background-size: 100% 100%;
-    min-height: 100vh;
-    margin: 0;
+.scoreboard {
+	width: 16rem;
+	height: 2rem;
+	background-color: darkblue;
+	color: white;
+	border: none;
 
-        }
-        
-
-      }
+	margin-top: 0rem;
+	text-align: center;
+	margin-bottom: 0rem;
+	padding-top: 1rem;
+	border-radius: 1rem;
+}
+	
+	 
+	
+}

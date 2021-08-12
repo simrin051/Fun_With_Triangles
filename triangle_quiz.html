@@ -1,40 +1,44 @@
 <html>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 <body>
-<link rel="stylesheet" href="triangle_quiz.css">  
-<button class="back-btn"><a href="index.html"><i class="fas fa-arrow-left" style="margin-right: 1rem; color:white"></i></a>Go Back</button>      
+<link rel="stylesheet" href="triangle_quiz.css"> 
+<div class="questionsContainer"> 
+<button class="back-btn"><a href="index.html"><i class="fas fa-arrow-left"  style="margin-right: 1rem; color:white" ></i></a>Go Back</button>      
 <form class="quiz-form" onsubmit="return false">
  <div class="question-container">  
-<label for="question1">1. If a triangle has angles 135&deg, 150&deg, 30&deg. Is it an obtuse triangle?</label>
-<label for="html"><input type="radio" id="html" name="question1" value="yes">yes</label>
+<label for="question1">1. If a triangle has angles 135&deg, 150&deg, 30&deg. Is it an obtuse triangle?</label><br/>
+<label for="html"><input type="radio"  name="question1" value="yes">yes</label>
 <label for="no"><input type="radio" id="css" name="question1" value="no">no</label>
 </div> 
+
 <div class="question-container"> 
-<label for="question2">2. If a triangle has angles 1150, 250, 400. Is it an acute triangle?</label>
-<label for="html"><input type="radio" id="html" name="question2" value="yes">yes</label>
-<label for="no"><input type="radio" id="css" name="question2" value="no">no</label>
-</div>
-<div class="question-container">
-<label for="question3">3. If a triangle has angles 900, 600, 300. Is it a right angle triangle?</label>
-<label for="html"><input type="radio" id="html" name="question3" value="yes">yes</label>
-<label for="no"><input type="radio" id="css" name="question3" value="no">no</label>
-</div>
-<div class="question-container">
-<label for="question3">4. A triangle has angles 600, 600, 600. Is it an equilateral triangle?</label>
-<label for="html"><input type="radio" id="html" name="question4" value="yes">yes</label>
-<label for="no"><input type="radio" id="css" name="question4" value="no">no</label>
-</div>
-<div class="question-container">
-<label for="question3">5. If a triangle has angles 250, 750, 800. Is it an acute triangle?</label>
-<label for="html"><input type="radio" id="html" name="question5" value="yes">yes</label>
-<label for="no"><input type="radio" id="css" name="question5" value="no">no</label> 
-</div>
+    <label for="question2">2. If a triangle has angles 1150, 250, 400. Is it an acute triangle?</label>
+    <label for="html"><input type="radio" id="html" name="question2" value="yes">yes</label>
+    <label for="no"><input type="radio" id="css" name="question2" value="no">no</label>
+    </div>
+    <div class="question-container">
+    <label for="question3">3. If a triangle has angles 900, 600, 300. Is it a right angle triangle?</label>
+    <label for="html"><input type="radio" id="html" name="question3" value="yes">yes</label>
+    <label for="no"><input type="radio" id="css" name="question3" value="no">no</label>
+    </div>
+    <div class="question-container">
+    <label for="question3">4. A triangle has angles 600, 600, 600. Is it an equilateral triangle?</label>
+    <label for="html"><input type="radio" id="html" name="question4" value="yes">yes</label>
+    <label for="no"><input type="radio" id="css" name="question4" value="no">no</label>
+    </div>
+    <div class="question-container">
+    <label for="question3">5. If a triangle has angles 250, 750, 800. Is it an acute triangle?</label>
+    <label for="html"><input type="radio" id="html" name="question5" value="yes">yes</label>
+    <label for="no"><input type="radio" id="css" name="question5" value="no">no</label> 
+    </div>
 <input type="submit" class="submit"></input>
 </form>
 
 <h2 style="text-align: center;">Score:</h2>
 <div class="scoreboard">Score will be displayed here</div>
 <script src="trianglequiz.js"></script>
+</div>
 </body>
 </html>
